@@ -1,9 +1,11 @@
 void setup() {
-  // put your setup code here, to run once:
-
+  // inicializa el pin digital LED_BUILTIN como salida.
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  digitalWrite(LED_BUILTIN, HIGH);   // enciende el LED
+  delay(1000);                      // espera un segundo
+  digitalWrite(LED_BUILTIN, LOW);    // apaga el LED
+  delay(1000);                      // espera un segundo
 }
