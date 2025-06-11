@@ -1,0 +1,17 @@
+# Archivos autogenerados y temporales del IDE de Arduino
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.eep
+*.lss
+*.sym
+*.map
+
+# Carpeta de compilación
+/build/
+
+# Archivos de configuración del usuario de algunos editores
+*.vscode/
+*.DS_Store
